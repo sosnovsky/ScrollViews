@@ -12,6 +12,7 @@
 		E069518F19ADC34D00A698A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E069518D19ADC34D00A698A4 /* Main.storyboard */; };
 		E069519119ADC34D00A698A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E069519019ADC34D00A698A4 /* Images.xcassets */; };
 		E069519D19ADC34D00A698A4 /* ScrollViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E069519C19ADC34D00A698A4 /* ScrollViewsTests.swift */; };
+		E06951A719ADC4BD00A698A4 /* ImageScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06951A619ADC4BD00A698A4 /* ImageScrollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		E069519619ADC34D00A698A4 /* ScrollViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E069519B19ADC34D00A698A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E069519C19ADC34D00A698A4 /* ScrollViewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewsTests.swift; sourceTree = "<group>"; };
+		E06951A619ADC4BD00A698A4 /* ImageScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageScrollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				E069518919ADC34D00A698A4 /* AppDelegate.swift */,
 				E069518B19ADC34D00A698A4 /* ViewController.swift */,
 				E069518D19ADC34D00A698A4 /* Main.storyboard */,
+				E06951A619ADC4BD00A698A4 /* ImageScrollViewController.swift */,
 				E069519019ADC34D00A698A4 /* Images.xcassets */,
 				E069518719ADC34D00A698A4 /* Supporting Files */,
 			);
@@ -210,6 +213,7 @@
 			files = (
 				E069518C19ADC34D00A698A4 /* ViewController.swift in Sources */,
 				E069518A19ADC34D00A698A4 /* AppDelegate.swift in Sources */,
+				E06951A719ADC4BD00A698A4 /* ImageScrollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,7 +12,7 @@ class ImageScrollViewController: UIViewController, UIScrollViewDelegate {
     
   let scrollView = UIScrollView()
   let imageView = UIImageView()
-  var navbarOffset = CGFloat(0)
+  var navbarOffset: CGFloat = 0
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -114,8 +114,10 @@ class ImageScrollViewController: UIViewController, UIScrollViewDelegate {
     return imageView
   }
 
-  func updateNavbarOffset() -> Void {
-    navbarOffset = navigationController.navigationBar.frame.size.height + navigationController.navigationBar.frame.origin.y
+  func updateNavbarOffset() {
+    if let navController = navigationController {
+      navbarOffset = navController.navigationBar.frame.size.height + navController.navigationBar.frame.origin.y
+    }
   }
 
   func scrollViewDidZoom(scrollView: UIScrollView!) {
